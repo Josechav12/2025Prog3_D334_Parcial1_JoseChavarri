@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header {
+            width: 90%;
+            margin: 0 auto;
+            border-bottom: 0.5px solid rgb(230, 230, 230);
+        }
+
+        /*header, nav, header div, header ul, header li{
+            border: 2px solid;
+        }*/
+        header,
+        header ul {
+            display: flex;
+        }
+
+        header ul {
+            justify-content: space-between;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .texto-azul {
+            color: #007bff;
+        }
+
+        #header-logo {
+            width: 60%;
+        }
+
+        #header-nav {
+            width: 40%;
+        }
+
+        #header-nav ul {
+            padding-left: 0px;
+
+        }
+
+        #header-nav li {
+            list-style-type: none;
+        }
+        #seccion-principal{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+        }
+        #subtitulo-disponibilidad {
+            text-align: center;
+            border: 0.1px solid rgb(228, 228, 228);
+            border-radius: 15px;
+            padding: 5px;
+            box-shadow: 2px 2px 4px #00000014;
+        }
+        #test{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="header-logo">
+            <h3><a href="/"><span class="texto-azul">Dev</span>Portfolio</h3></a>
+        </div>
+        <nav id="header-nav">
+            <ul>
+                <li>Inicio</li>
+                <li>Habilidades</li>
+                <li>Proyectos</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="seccion-principal">
+            <div id="test">
+                <h4 id="subtitulo-disponibilidad">Disponible para proyectos</h4>
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+
+</body>
+
+</html>
