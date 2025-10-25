@@ -143,7 +143,7 @@ function cargarCarrito(){
         carrito = JSON.parse(data);
     }
     mostrarCarrito();
-    
+
 }
 
 
